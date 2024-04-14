@@ -1,0 +1,12 @@
+pyfiglet==1.0.2
+Pygments==2.17.2
+simple-term-menu==1.6.4
+Sphinx==7.2.6
+sphinxcontrib-applehelp==1.0.8
+sphinxcontrib-devhelp==1.0.6
+sphinxcontrib-htmlhelp==2.0.5
+sphinxcontrib-jsmath==1.0.1
+sphinxcontrib-qthelp==1.0.7
+sphinxcontrib-serializinghtml==1.1.10
+urllib3==2.2.1
+zipp==3.18.1
