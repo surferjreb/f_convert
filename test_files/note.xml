@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+  <data xmlns="http://example.com">  
+    <note>
+      <to>Tove</to>
+      <from>Jani</from>
+      <heading>Reminder</heading>
+      <body>Don't forget me this weekend!</body>
+    </note>
+	<note>
+      <to>James</to>
+      <from>Franco</from>
+      <heading>Oh Snap</heading>
+      <body>Things are about to get Crazy!</body>
+    </note>
+	<note>
+      <to>Jimi</to>
+      <from>Hendrix</from>
+      <heading>Watch Tower</heading>
+      <body>All along the watch tower.</body>
+    </note>
+	<note>
+      <to>Bob</to>
+      <from>Dylan</from>
+      <heading>City boy</heading>
+      <body>Big city boy from a small town.</body>
+    </note>
+  </data>

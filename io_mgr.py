@@ -1,5 +1,5 @@
-from data_reader import DataReader
-from data_printer import DataPrinter
+from f_reader import FReader
+from f_printer import FPrinter
 from pathlib import Path
 
 
@@ -14,8 +14,8 @@ class IOMgr:
 
     '''
     def __init__(self, read_path=' ', output_path=' '):
-        self.__d_reader = DataReader()
-        self.__d_printer = DataPrinter()
+        self.__f_reader = FReader()
+        self.__f_printer = DataPrinter()
         self.__read_path = read_path
         self.__output_path = output_path
 
@@ -122,7 +122,7 @@ class IOMgr:
 
         '''
         if self.__read_path != ' ':
-            return self.__d_reader.read_file(self.__read_path)
+            return self.__f_reader.read_file(self.__read_path)
         else:
             raise ValueError('Did not set read path')
 
@@ -133,7 +133,7 @@ class IOMgr:
 
         '''
         if self.__output_path != ' ':
-            self.__d_printer.output_min_data_csv(
+            self.__f_printer.output_min_data_csv(
                 self.__output_path, data)
         else:
             raise ValueError('Output file path is blank')
