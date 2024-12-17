@@ -1,4 +1,5 @@
 design
-docs/source
-docs/makefile
-docs/make.bat
+docs
+.venv
+.vscode
+
