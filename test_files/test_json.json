@@ -8,7 +8,6 @@
       "example": "An example value for the field",
       "description": "A description for the field",
       "constraints": "a stuff thing"
-      // a constraints-descriptor
     }
   ]
 }
